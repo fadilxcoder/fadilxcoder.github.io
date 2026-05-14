@@ -1,15 +1,303 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://fadilxcoder.github.io/</loc>
     <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fadilxcoder.github.io/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://fadilxcoder.github.io/" />
     <image:image>
       <image:loc>https://fadilxcoder.github.io/images/site/og-image.jpg</image:loc>
+      <image:title>Fadil R — AI-Driven Web Developer in Mauritius</image:title>
+      <image:caption>Open Graph card for fadilxcoder.github.io — AI-augmented PHP / Symfony developer in Mauritius.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://fadilxcoder.github.io/images/site/cover.jpg</image:loc>
       <image:title>Fadil R — Web Architect &amp; Full-Stack Developer in Mauritius</image:title>
-      <image:caption>Senior PHP / Symfony web architect and full-stack developer based in Mauritius.</image:caption>
+      <image:caption>Cover image of fadilxcoder portfolio — senior PHP / Symfony developer based in Mauritius.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://fadilxcoder.github.io/images/site/cover-2.jpg</image:loc>
+      <image:title>Contact Fadil R — Mauritius web developer</image:title>
+      <image:caption>Contact section cover — reach Fadil R for AI-augmented web, mobile and DevOps projects.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://fadilxcoder.github.io/images/portfolio/55.jpg</image:loc>
+      <image:title>Marketplace (under dev*) — portfolio project by Fadil R (fadilxcoder)</image:title>
+      <image:caption>Marketplace (under dev*): web, mobile or API project delivered by Fadil R — AI-augmented PHP / Symfony developer based in Mauritius.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://fadilxcoder.github.io/images/portfolio/54.jpg</image:loc>
+      <image:title>LPDI - API — portfolio project by Fadil R (fadilxcoder)</image:title>
+      <image:caption>LPDI - API: web, mobile or API project delivered by Fadil R — AI-augmented PHP / Symfony developer based in Mauritius.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://fadilxcoder.github.io/images/portfolio/53.jpg</image:loc>
+      <image:title>LPDI - Search Engine — portfolio project by Fadil R (fadilxcoder)</image:title>
+      <image:caption>LPDI - Search Engine: web, mobile or API project delivered by Fadil R — AI-augmented PHP / Symfony developer based in Mauritius.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://fadilxcoder.github.io/images/portfolio/52.jpg</image:loc>
+      <image:title>Stream TV Shows - API — portfolio project by Fadil R (fadilxcoder)</image:title>
+      <image:caption>Stream TV Shows - API: web, mobile or API project delivered by Fadil R — AI-augmented PHP / Symfony developer based in Mauritius.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://fadilxcoder.github.io/images/portfolio/51.jpg</image:loc>
+      <image:title>API Client UI — portfolio project by Fadil R (fadilxcoder)</image:title>
+      <image:caption>API Client UI: web, mobile or API project delivered by Fadil R — AI-augmented PHP / Symfony developer based in Mauritius.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://fadilxcoder.github.io/images/portfolio/50.jpg</image:loc>
+      <image:title>Watches E-Commerce — portfolio project by Fadil R (fadilxcoder)</image:title>
+      <image:caption>Watches E-Commerce: web, mobile or API project delivered by Fadil R — AI-augmented PHP / Symfony developer based in Mauritius.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://fadilxcoder.github.io/images/portfolio/49.jpg</image:loc>
+      <image:title>Al Hayaat Calligraphy — portfolio project by Fadil R (fadilxcoder)</image:title>
+      <image:caption>Al Hayaat Calligraphy: web, mobile or API project delivered by Fadil R — AI-augmented PHP / Symfony developer based in Mauritius.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://fadilxcoder.github.io/images/portfolio/48.jpg</image:loc>
+      <image:title>Online Lecture Presentation App — portfolio project by Fadil R (fadilxcoder)</image:title>
+      <image:caption>Online Lecture Presentation App: web, mobile or API project delivered by Fadil R — AI-augmented PHP / Symfony developer based in Mauritius.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://fadilxcoder.github.io/images/portfolio/47.jpg</image:loc>
+      <image:title>Laravel Lumen Dev. — portfolio project by Fadil R (fadilxcoder)</image:title>
+      <image:caption>Laravel Lumen Dev.: web, mobile or API project delivered by Fadil R — AI-augmented PHP / Symfony developer based in Mauritius.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://fadilxcoder.github.io/images/portfolio/46.jpg</image:loc>
+      <image:title>Laravel 8 Blog Dev. — portfolio project by Fadil R (fadilxcoder)</image:title>
+      <image:caption>Laravel 8 Blog Dev.: web, mobile or API project delivered by Fadil R — AI-augmented PHP / Symfony developer based in Mauritius.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://fadilxcoder.github.io/images/portfolio/45.jpg</image:loc>
+      <image:title>Firebase Micro App — portfolio project by Fadil R (fadilxcoder)</image:title>
+      <image:caption>Firebase Micro App: web, mobile or API project delivered by Fadil R — AI-augmented PHP / Symfony developer based in Mauritius.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://fadilxcoder.github.io/images/portfolio/44.jpg</image:loc>
+      <image:title>Private Sport Shop - Redesign — portfolio project by Fadil R (fadilxcoder)</image:title>
+      <image:caption>Private Sport Shop - Redesign: web, mobile or API project delivered by Fadil R — AI-augmented PHP / Symfony developer based in Mauritius.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://fadilxcoder.github.io/images/portfolio/43.jpg</image:loc>
+      <image:title>Saas - Nutry.fr — portfolio project by Fadil R (fadilxcoder)</image:title>
+      <image:caption>Saas - Nutry.fr: web, mobile or API project delivered by Fadil R — AI-augmented PHP / Symfony developer based in Mauritius.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://fadilxcoder.github.io/images/portfolio/42.jpg</image:loc>
+      <image:title>2FA - Patient Reporting System — portfolio project by Fadil R (fadilxcoder)</image:title>
+      <image:caption>2FA - Patient Reporting System: web, mobile or API project delivered by Fadil R — AI-augmented PHP / Symfony developer based in Mauritius.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://fadilxcoder.github.io/images/portfolio/41.jpg</image:loc>
+      <image:title>QR Ticket Scanner Mobile App — portfolio project by Fadil R (fadilxcoder)</image:title>
+      <image:caption>QR Ticket Scanner Mobile App: web, mobile or API project delivered by Fadil R — AI-augmented PHP / Symfony developer based in Mauritius.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://fadilxcoder.github.io/images/portfolio/40.jpg</image:loc>
+      <image:title>Symfony / API Platform — portfolio project by Fadil R (fadilxcoder)</image:title>
+      <image:caption>Symfony / API Platform: web, mobile or API project delivered by Fadil R — AI-augmented PHP / Symfony developer based in Mauritius.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://fadilxcoder.github.io/images/portfolio/39.jpg</image:loc>
+      <image:title>Saas - Valdesco Courses — portfolio project by Fadil R (fadilxcoder)</image:title>
+      <image:caption>Saas - Valdesco Courses: web, mobile or API project delivered by Fadil R — AI-augmented PHP / Symfony developer based in Mauritius.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://fadilxcoder.github.io/images/portfolio/38.jpg</image:loc>
+      <image:title>Technotronics — portfolio project by Fadil R (fadilxcoder)</image:title>
+      <image:caption>Technotronics: web, mobile or API project delivered by Fadil R — AI-augmented PHP / Symfony developer based in Mauritius.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://fadilxcoder.github.io/images/portfolio/37.jpg</image:loc>
+      <image:title>ALVIS Mauritius — portfolio project by Fadil R (fadilxcoder)</image:title>
+      <image:caption>ALVIS Mauritius: web, mobile or API project delivered by Fadil R — AI-augmented PHP / Symfony developer based in Mauritius.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://fadilxcoder.github.io/images/portfolio/36.jpg</image:loc>
+      <image:title>CSEOBA E-Ticket Management — portfolio project by Fadil R (fadilxcoder)</image:title>
+      <image:caption>CSEOBA E-Ticket Management: web, mobile or API project delivered by Fadil R — AI-augmented PHP / Symfony developer based in Mauritius.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://fadilxcoder.github.io/images/portfolio/35.jpg</image:loc>
+      <image:title>SUPERDIST (hiperdist-io) Stock Management — portfolio project by Fadil R (fadilxcoder)</image:title>
+      <image:caption>SUPERDIST (hiperdist-io) Stock Management: web, mobile or API project delivered by Fadil R — AI-augmented PHP / Symfony developer based in Mauritius.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://fadilxcoder.github.io/images/portfolio/34.jpg</image:loc>
+      <image:title>A J Contracting Ltd — portfolio project by Fadil R (fadilxcoder)</image:title>
+      <image:caption>A J Contracting Ltd: web, mobile or API project delivered by Fadil R — AI-augmented PHP / Symfony developer based in Mauritius.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://fadilxcoder.github.io/images/portfolio/33.jpg</image:loc>
+      <image:title>MauBank WithMe — portfolio project by Fadil R (fadilxcoder)</image:title>
+      <image:caption>MauBank WithMe: web, mobile or API project delivered by Fadil R — AI-augmented PHP / Symfony developer based in Mauritius.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://fadilxcoder.github.io/images/portfolio/32.jpg</image:loc>
+      <image:title>Panzani Marketing Campaign — portfolio project by Fadil R (fadilxcoder)</image:title>
+      <image:caption>Panzani Marketing Campaign: web, mobile or API project delivered by Fadil R — AI-augmented PHP / Symfony developer based in Mauritius.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://fadilxcoder.github.io/images/portfolio/31.jpg</image:loc>
+      <image:title>eSolusoft Ltd — portfolio project by Fadil R (fadilxcoder)</image:title>
+      <image:caption>eSolusoft Ltd: web, mobile or API project delivered by Fadil R — AI-augmented PHP / Symfony developer based in Mauritius.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://fadilxcoder.github.io/images/portfolio/30.jpg</image:loc>
+      <image:title>Forum SportColl — portfolio project by Fadil R (fadilxcoder)</image:title>
+      <image:caption>Forum SportColl: web, mobile or API project delivered by Fadil R — AI-augmented PHP / Symfony developer based in Mauritius.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://fadilxcoder.github.io/images/portfolio/29.jpg</image:loc>
+      <image:title>Binding Estates Saving Calculator - UK — portfolio project by Fadil R (fadilxcoder)</image:title>
+      <image:caption>Binding Estates Saving Calculator - UK: web, mobile or API project delivered by Fadil R — AI-augmented PHP / Symfony developer based in Mauritius.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://fadilxcoder.github.io/images/portfolio/28.jpg</image:loc>
+      <image:title>SCS Mauritius — portfolio project by Fadil R (fadilxcoder)</image:title>
+      <image:caption>SCS Mauritius: web, mobile or API project delivered by Fadil R — AI-augmented PHP / Symfony developer based in Mauritius.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://fadilxcoder.github.io/images/portfolio/27.jpg</image:loc>
+      <image:title>Rodrigues Kitesurfing Association — portfolio project by Fadil R (fadilxcoder)</image:title>
+      <image:caption>Rodrigues Kitesurfing Association: web, mobile or API project delivered by Fadil R — AI-augmented PHP / Symfony developer based in Mauritius.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://fadilxcoder.github.io/images/portfolio/26.jpg</image:loc>
+      <image:title>Tailored Accounting App — portfolio project by Fadil R (fadilxcoder)</image:title>
+      <image:caption>Tailored Accounting App: web, mobile or API project delivered by Fadil R — AI-augmented PHP / Symfony developer based in Mauritius.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://fadilxcoder.github.io/images/portfolio/25.jpg</image:loc>
+      <image:title>Nin's Marketing Campaign — portfolio project by Fadil R (fadilxcoder)</image:title>
+      <image:caption>Nin's Marketing Campaign: web, mobile or API project delivered by Fadil R — AI-augmented PHP / Symfony developer based in Mauritius.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://fadilxcoder.github.io/images/portfolio/24.jpg</image:loc>
+      <image:title>Ferrari Dubai Newsletter — portfolio project by Fadil R (fadilxcoder)</image:title>
+      <image:caption>Ferrari Dubai Newsletter: web, mobile or API project delivered by Fadil R — AI-augmented PHP / Symfony developer based in Mauritius.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://fadilxcoder.github.io/images/portfolio/23.jpg</image:loc>
+      <image:title>Ferrari Dubai Catalogue App — portfolio project by Fadil R (fadilxcoder)</image:title>
+      <image:caption>Ferrari Dubai Catalogue App: web, mobile or API project delivered by Fadil R — AI-augmented PHP / Symfony developer based in Mauritius.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://fadilxcoder.github.io/images/portfolio/22.jpg</image:loc>
+      <image:title>Create-WW — portfolio project by Fadil R (fadilxcoder)</image:title>
+      <image:caption>Create-WW: web, mobile or API project delivered by Fadil R — AI-augmented PHP / Symfony developer based in Mauritius.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://fadilxcoder.github.io/images/portfolio/21.jpg</image:loc>
+      <image:title>Zarrin Tejarat - en-US|ar-AE (RTL) — portfolio project by Fadil R (fadilxcoder)</image:title>
+      <image:caption>Zarrin Tejarat - en-US|ar-AE (RTL): web, mobile or API project delivered by Fadil R — AI-augmented PHP / Symfony developer based in Mauritius.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://fadilxcoder.github.io/images/portfolio/20.jpg</image:loc>
+      <image:title>Furniture Store — portfolio project by Fadil R (fadilxcoder)</image:title>
+      <image:caption>Furniture Store: web, mobile or API project delivered by Fadil R — AI-augmented PHP / Symfony developer based in Mauritius.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://fadilxcoder.github.io/images/portfolio/19.jpg</image:loc>
+      <image:title>University Courses / Quiz System — portfolio project by Fadil R (fadilxcoder)</image:title>
+      <image:caption>University Courses / Quiz System: web, mobile or API project delivered by Fadil R — AI-augmented PHP / Symfony developer based in Mauritius.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://fadilxcoder.github.io/images/portfolio/18.jpg</image:loc>
+      <image:title>Jquey Mobile App Dev — portfolio project by Fadil R (fadilxcoder)</image:title>
+      <image:caption>Jquey Mobile App Dev: web, mobile or API project delivered by Fadil R — AI-augmented PHP / Symfony developer based in Mauritius.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://fadilxcoder.github.io/images/portfolio/17.jpg</image:loc>
+      <image:title>Marketing Campaign Ultra Doux Adv. — portfolio project by Fadil R (fadilxcoder)</image:title>
+      <image:caption>Marketing Campaign Ultra Doux Adv.: web, mobile or API project delivered by Fadil R — AI-augmented PHP / Symfony developer based in Mauritius.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://fadilxcoder.github.io/images/portfolio/16.jpg</image:loc>
+      <image:title>Marketing Campaign Mixa - Slot Machine — portfolio project by Fadil R (fadilxcoder)</image:title>
+      <image:caption>Marketing Campaign Mixa - Slot Machine: web, mobile or API project delivered by Fadil R — AI-augmented PHP / Symfony developer based in Mauritius.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://fadilxcoder.github.io/images/portfolio/15.jpg</image:loc>
+      <image:title>Marketing Campaign Ultra Doux — portfolio project by Fadil R (fadilxcoder)</image:title>
+      <image:caption>Marketing Campaign Ultra Doux: web, mobile or API project delivered by Fadil R — AI-augmented PHP / Symfony developer based in Mauritius.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://fadilxcoder.github.io/images/portfolio/14.jpg</image:loc>
+      <image:title>Doctor / Patient Management System — portfolio project by Fadil R (fadilxcoder)</image:title>
+      <image:caption>Doctor / Patient Management System: web, mobile or API project delivered by Fadil R — AI-augmented PHP / Symfony developer based in Mauritius.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://fadilxcoder.github.io/images/portfolio/13.jpg</image:loc>
+      <image:title>Great Place To Work (LP) — portfolio project by Fadil R (fadilxcoder)</image:title>
+      <image:caption>Great Place To Work (LP): web, mobile or API project delivered by Fadil R — AI-augmented PHP / Symfony developer based in Mauritius.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://fadilxcoder.github.io/images/portfolio/12.jpg</image:loc>
+      <image:title>Le Peninsula Bay — portfolio project by Fadil R (fadilxcoder)</image:title>
+      <image:caption>Le Peninsula Bay: web, mobile or API project delivered by Fadil R — AI-augmented PHP / Symfony developer based in Mauritius.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://fadilxcoder.github.io/images/portfolio/11.jpg</image:loc>
+      <image:title>Parallax Website — portfolio project by Fadil R (fadilxcoder)</image:title>
+      <image:caption>Parallax Website: web, mobile or API project delivered by Fadil R — AI-augmented PHP / Symfony developer based in Mauritius.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://fadilxcoder.github.io/images/portfolio/10.jpg</image:loc>
+      <image:title>Maubank Quiz — portfolio project by Fadil R (fadilxcoder)</image:title>
+      <image:caption>Maubank Quiz: web, mobile or API project delivered by Fadil R — AI-augmented PHP / Symfony developer based in Mauritius.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://fadilxcoder.github.io/images/portfolio/09.jpg</image:loc>
+      <image:title>Desktop Based Website — portfolio project by Fadil R (fadilxcoder)</image:title>
+      <image:caption>Desktop Based Website: web, mobile or API project delivered by Fadil R — AI-augmented PHP / Symfony developer based in Mauritius.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://fadilxcoder.github.io/images/portfolio/08.jpg</image:loc>
+      <image:title>First Auto Car Rental — portfolio project by Fadil R (fadilxcoder)</image:title>
+      <image:caption>First Auto Car Rental: web, mobile or API project delivered by Fadil R — AI-augmented PHP / Symfony developer based in Mauritius.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://fadilxcoder.github.io/images/portfolio/07.jpg</image:loc>
+      <image:title>Dive Passion Mauritius — portfolio project by Fadil R (fadilxcoder)</image:title>
+      <image:caption>Dive Passion Mauritius: web, mobile or API project delivered by Fadil R — AI-augmented PHP / Symfony developer based in Mauritius.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://fadilxcoder.github.io/images/portfolio/06.jpg</image:loc>
+      <image:title>Danpoly Mauritius — portfolio project by Fadil R (fadilxcoder)</image:title>
+      <image:caption>Danpoly Mauritius: web, mobile or API project delivered by Fadil R — AI-augmented PHP / Symfony developer based in Mauritius.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://fadilxcoder.github.io/images/portfolio/05.jpg</image:loc>
+      <image:title>Car Rental Web App — portfolio project by Fadil R (fadilxcoder)</image:title>
+      <image:caption>Car Rental Web App: web, mobile or API project delivered by Fadil R — AI-augmented PHP / Symfony developer based in Mauritius.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://fadilxcoder.github.io/images/portfolio/04.jpg</image:loc>
+      <image:title>Raid Des Alizes — portfolio project by Fadil R (fadilxcoder)</image:title>
+      <image:caption>Raid Des Alizes: web, mobile or API project delivered by Fadil R — AI-augmented PHP / Symfony developer based in Mauritius.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://fadilxcoder.github.io/images/portfolio/03.jpg</image:loc>
+      <image:title>La Vallee Des Couleur — portfolio project by Fadil R (fadilxcoder)</image:title>
+      <image:caption>La Vallee Des Couleur: web, mobile or API project delivered by Fadil R — AI-augmented PHP / Symfony developer based in Mauritius.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://fadilxcoder.github.io/images/portfolio/02.jpg</image:loc>
+      <image:title>TVSport Events — portfolio project by Fadil R (fadilxcoder)</image:title>
+      <image:caption>TVSport Events: web, mobile or API project delivered by Fadil R — AI-augmented PHP / Symfony developer based in Mauritius.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://fadilxcoder.github.io/images/portfolio/01.jpg</image:loc>
+      <image:title>Open Sud De France — portfolio project by Fadil R (fadilxcoder)</image:title>
+      <image:caption>Open Sud De France: web, mobile or API project delivered by Fadil R — AI-augmented PHP / Symfony developer based in Mauritius.</image:caption>
     </image:image>
   </url>
 </urlset>
