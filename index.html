@@ -2,69 +2,251 @@
 <html lang="en" data-safeMod="false" data-autoHideScrollbar="true" data-safeModPageInAnimation="fadeIn" data-inAnimation="fadeInUp" data-outAnimation="fadeOutDownBig" data-cover-h1-tune=".85" data-cover-h2-tune="2.3" data-cover-h3-tune=".6" data-cover-h3-span-tune=".8" data-twitter-name="pixelwarsdesign">
 <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" >
-    <meta name="description" content="I’m Fadil R (fadilxcoder), a seasoned Web Architect and Full-Stack App Developer specializing in custom website development, responsive static and dynamic web design, tailor-made web applications, Android mobile app development, API integration, and scalable software solutions. With a strong focus on performance, usability, and modern technologies, I deliver end-to-end digital solutions that drive business growth.">
-    <meta name="keywords" content="web design services Mauritius, custom website development Mauritius, ecommerce website design, responsive web development, hire web developer Mauritius, mobile app development company, Android app developer Mauritius, API integration services, digital marketing Mauritius, email marketing services, newsletter design experts, professional web portal development, DevOps consulting Mauritius, cloud-based software development, secure web hosting Mauritius, database design and development, full-stack developer Mauritius, scalable web applications, SEO-friendly website design">
-    <meta name="author" content="fadilxcoder">
-    <title>Fadil R - Developer in Mauritius 🎮 💻 🎧 ☕</title>
-    <!-- SCRIPTS -->
-    <script type="text/javascript" src="js/modernizr.js"></script> 
-    <!--[if lte IE 9]>
-        <script src="js/html5shiv.js"></script>
-        <script src="js/selectivizr-min.js"></script>
-    <![endif]-->    
-    <!-- FONTS -->
-    <link href='https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Alfa+Slab+One|Nixie+One|Raleway:200,800' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Tulpen+One|Sacramento' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>Fadil R — Web Developer in Mauritius | PHP, Symfony, Laravel, Full-Stack & DevOps</title>
+    <meta name="description" content="Fadil R (fadilxcoder) — senior PHP / Symfony web architect in Mauritius. End-to-end web, mobile, API and cloud development: from idea to production. 10+ years building scalable web apps, SaaS, e-commerce and DevOps pipelines.">
+    <meta name="author" content="Fadil Rosun-Mungur (fadilxcoder)">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta name="googlebot" content="index, follow">
+    <link rel="canonical" href="https://fadilxcoder.github.io/">
+
+    <!-- Local SEO (Mauritius) -->
+    <meta name="geo.region" content="MU">
+    <meta name="geo.placename" content="Mauritius">
+    <meta name="ICBM" content="-20.348404, 57.552152">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="profile">
+    <meta property="og:site_name" content="Fadil R — fadilxcoder">
+    <meta property="og:title" content="Fadil R — Web Developer in Mauritius | PHP, Symfony, Full-Stack & DevOps">
+    <meta property="og:description" content="Senior PHP / Symfony web architect in Mauritius. End-to-end web, mobile, API and cloud development — from idea to production.">
+    <meta property="og:url" content="https://fadilxcoder.github.io/">
+    <meta property="og:image" content="https://fadilxcoder.github.io/images/site/og-image.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Fadil R — Web Architect & Full-Stack Developer in Mauritius">
+    <meta property="og:locale" content="en_US">
+    <meta property="profile:first_name" content="Fadil">
+    <meta property="profile:last_name" content="Rosun-Mungur">
+    <meta property="profile:username" content="fadilxcoder">
+
+    <!-- Twitter / X Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Fadil R — Web Developer in Mauritius | PHP, Symfony, Full-Stack & DevOps">
+    <meta name="twitter:description" content="Senior PHP / Symfony web architect in Mauritius. End-to-end web, mobile, API and cloud development — from idea to production.">
+    <meta name="twitter:image" content="https://fadilxcoder.github.io/images/site/og-image.jpg">
+    <meta name="twitter:image:alt" content="Fadil R — Web Architect & Full-Stack Developer in Mauritius">
+
+    <!-- PWA / mobile -->
+    <meta name="theme-color" content="#1a1a1a">
+    <meta name="apple-mobile-web-app-title" content="Fadil R">
+    <meta name="application-name" content="Fadil R">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="manifest" href="/manifest.webmanifest">
+
+    <!-- Icons -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="shortcut icon" href="/favicon.png">
+
+    <!-- Resource hints -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+    <link rel="dns-prefetch" href="https://ajax.googleapis.com">
+    <link rel="preload" as="image" href="images/site/cover.jpg" fetchpriority="high">
+
+    <!-- FONTS (consolidated, font-display: swap) -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic|Alfa+Slab+One|Nixie+One|Raleway:200,800|Tulpen+One|Sacramento&display=swap" rel="stylesheet">
+
     <!-- STYLES -->
     <link rel="stylesheet" type="text/css" media="print" href="css/print.css">
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/animate.css">
-    <link rel="stylesheet" type="text/css" href="css/book.css" />
+    <link rel="stylesheet" type="text/css" href="css/book.css">
     <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
     <link rel="stylesheet" type="text/css" href="css/jquery.fancybox-1.3.4.css">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
     <link class="cover-skin" rel="stylesheet" type="text/css" href="css/skins/cover/standart.css">
     <link class="base-skin" rel="stylesheet" type="text/css" href="css/skins/base/clean.css">
     <link class="paper-bg-skin" rel="stylesheet" type="text/css" href="css/skins/paper-bg/cream-dust.css">
     <link class="body-bg-skin" rel="stylesheet" type="text/css" href="css/skins/body-bg/wood.css">
-    
+
+    <!-- Modernizr is required at runtime by main.js for css-transform feature detection -->
+    <script src="js/modernizr.js" defer></script>
+    <!--[if lte IE 9]>
+        <script src="js/html5shiv.js"></script>
+        <script src="js/selectivizr-min.js"></script>
+    <![endif]-->
+
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-11NB32DC03"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-
         gtag('config', 'G-11NB32DC03');
     </script>
 
-    <link rel="icon" href="./favicon.png" sizes="600x600"/>
+    <!-- Structured data: Person -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "@id": "https://fadilxcoder.github.io/#person",
+      "name": "Fadil Rosun-Mungur",
+      "alternateName": ["Fadil R", "fadilxcoder"],
+      "url": "https://fadilxcoder.github.io/",
+      "image": "https://fadilxcoder.github.io/images/site/og-image.jpg",
+      "jobTitle": "Senior PHP / Symfony Web Architect & Full-Stack Developer",
+      "description": "Senior PHP / Symfony web architect and full-stack developer based in Mauritius. 10+ years of experience delivering end-to-end web, mobile, API and cloud solutions — from idea to production.",
+      "email": "mailto:fadilrm@hotmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "MU",
+        "addressRegion": "Mauritius"
+      },
+      "worksFor": {
+        "@type": "Organization",
+        "name": "BOCASAY (Maurice) Limitée"
+      },
+      "alumniOf": [
+        {
+          "@type": "CollegeOrUniversity",
+          "name": "Université des Mascareignes"
+        },
+        {
+          "@type": "CollegeOrUniversity",
+          "name": "Université de Limoges"
+        }
+      ],
+      "knowsAbout": [
+        "PHP", "Symfony", "API Platform", "Laravel", "Lumen", "CodeIgniter",
+        "WordPress", "PrestaShop", "Hexagonal Architecture", "REST API", "GraphQL",
+        "Microservices", "Elasticsearch", "Redis", "MySQL", "PostgreSQL", "MongoDB",
+        "Docker", "Kubernetes", "CI/CD", "GitHub Actions", "GitLab CI", "DevOps",
+        "Golang", "Python", "Node.js", "TypeScript", "Vue.js", "React",
+        "Android development", "Flutter", "Apache Cordova", "Adobe PhoneGap",
+        "Progressive Web Apps", "WebSockets", "Mercure", "Firebase",
+        "Stripe", "MCB payment gateway", "Cybersecurity", "Penetration testing"
+      ],
+      "knowsLanguage": ["en", "fr"],
+      "nationality": {
+        "@type": "Country",
+        "name": "Mauritius"
+      },
+      "sameAs": [
+        "https://github.com/fadilxcoder",
+        "https://gitlab.com/fadil.xcoder",
+        "https://dev.to/fadilxcoder",
+        "https://packagist.org/users/fadilxcoder/",
+        "https://www.facebook.com/fadil.xcoder",
+        "https://g.dev/fadilxcoder",
+        "https://goo.gl/rdJ2yn"
+      ]
+    }
+    </script>
+
+    <!-- Structured data: WebSite -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "@id": "https://fadilxcoder.github.io/#website",
+      "url": "https://fadilxcoder.github.io/",
+      "name": "Fadil R — Web Developer in Mauritius",
+      "description": "Portfolio of Fadil R (fadilxcoder), senior PHP / Symfony web architect & full-stack developer in Mauritius.",
+      "inLanguage": "en",
+      "author": { "@id": "https://fadilxcoder.github.io/#person" },
+      "publisher": { "@id": "https://fadilxcoder.github.io/#person" }
+    }
+    </script>
+
+    <!-- Structured data: ProfessionalService (local SEO Mauritius) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "@id": "https://fadilxcoder.github.io/#service",
+      "name": "fadilxcoder — Web Development Services Mauritius",
+      "description": "End-to-end web development services in Mauritius: custom website development, web applications, e-commerce, SaaS, REST/GraphQL APIs, Android apps, DevOps and cloud deployment — from idea to production.",
+      "url": "https://fadilxcoder.github.io/",
+      "image": "https://fadilxcoder.github.io/images/site/og-image.jpg",
+      "provider": { "@id": "https://fadilxcoder.github.io/#person" },
+      "areaServed": [
+        { "@type": "Country", "name": "Mauritius" },
+        { "@type": "Place", "name": "Worldwide (remote)" }
+      ],
+      "serviceType": [
+        "Custom website development",
+        "Web application development",
+        "E-commerce development (PrestaShop, custom)",
+        "SaaS development (multi-tenant)",
+        "REST and GraphQL API development",
+        "Symfony and Laravel development",
+        "Android mobile app development",
+        "DevOps and CI/CD pipelines",
+        "Cloud deployment and hosting",
+        "Database design and tuning",
+        "API integration"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Web Development Services",
+        "itemListElement": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Custom website development", "serviceType": "Web design" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Symfony / API Platform application", "serviceType": "Backend development" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "SaaS platform development", "serviceType": "Product engineering" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "E-commerce development", "serviceType": "E-commerce" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "DevOps & CI/CD setup", "serviceType": "DevOps" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Android mobile app development", "serviceType": "Mobile development" } }
+        ]
+      }
+    }
+    </script>
+
+    <!-- Structured data: BreadcrumbList -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://fadilxcoder.github.io/#home" },
+        { "@type": "ListItem", "position": 2, "name": "Resume", "item": "https://fadilxcoder.github.io/#resume" },
+        { "@type": "ListItem", "position": 3, "name": "Portfolio", "item": "https://fadilxcoder.github.io/#portfolio" },
+        { "@type": "ListItem", "position": 4, "name": "Contact", "item": "https://fadilxcoder.github.io/#contact" }
+      ]
+    }
+    </script>
 </head>
 <body>
-    <section class="main">
+    <section class="main" role="main" aria-label="Fadil R portfolio">
         <div id="rm-container" class="rm-container rm-closed">
             <header id="header">
-                <nav>
+                <nav aria-label="Primary">
                     <ul>
-                        <li><a href='#/home'></a></li>
-                        <li><a href='#/resume'></a></li>
-                        <li><a href='#/portfolio'></a></li>
-                        <li><a href='#/contact'></a></li>
+                        <li><a href='#/home' aria-label="Home"></a></li>
+                        <li><a href='#/resume' aria-label="Resume"></a></li>
+                        <li><a href='#/portfolio' aria-label="Portfolio"></a></li>
+                        <li><a href='#/contact' aria-label="Contact"></a></li>
                     </ul>
-                </nav>    
+                </nav>
             </header>
             <div class="rm-wrapper">
                 <div class="rm-cover">
-                    <div id="home" class="rm-front page">
+                    <div id="home" class="rm-front page" role="region" aria-label="Home">
+                        <h1 style="position:absolute;left:-10000px;top:auto;width:1px;height:1px;overflow:hidden;">
+                            Fadil R — Senior PHP / Symfony Web Architect &amp; Full-Stack Developer in Mauritius
+                        </h1>
                         <div class="antiscroll-wrap">
                             <div class="antiscroll-inner">
                                 <div class="cover">
                                     <div class="cover-image-holder">
-                                        <img src="images/site/cover.jpg" alt="cover-image">
+                                        <img src="images/site/cover.jpg" alt="Fadil R — PHP / Symfony web architect and full-stack developer based in Mauritius" fetchpriority="high">
                                     </div>
                                     <h1>PHP</h1>
                                     <h1>Symfony</h1>
@@ -258,315 +440,315 @@
                                     <div class="portfolio-items">
                                         <div class="hentry">
                                             <div class="media-box">
-                                                <img src="images/portfolio/55.jpg" alt="portfolio-post">
+                                                <img src="images/portfolio/55.jpg" alt="Portfolio project — Marketplace ((under dev*)) by Fadil R (fadilxcoder)" loading="lazy" decoding="async">
                                                 <div class="mask"></div>
                                             </div>
                                             <h4>Marketplace <small>(under dev*)</small></h4>
                                         </div>
                                         <div class="hentry">
                                             <div class="media-box">
-                                                <img src="images/portfolio/54.jpg" alt="portfolio-post">
+                                                <img src="images/portfolio/54.jpg" alt="Portfolio project — LPDI - API by Fadil R (fadilxcoder)" loading="lazy" decoding="async">
                                                 <div class="mask"></div>
                                             </div>
                                             <h4>LPDI - API</h4>
                                         </div>
                                         <div class="hentry">
                                             <div class="media-box">
-                                                <img src="images/portfolio/53.jpg" alt="portfolio-post">
+                                                <img src="images/portfolio/53.jpg" alt="Portfolio project — LPDI - Search Engine by Fadil R (fadilxcoder)" loading="lazy" decoding="async">
                                                 <div class="mask"></div>
                                             </div>
                                             <h4>LPDI - Search Engine</h4>
                                         </div>
                                         <div class="hentry">
                                             <div class="media-box">
-                                                <img src="images/portfolio/52.jpg" alt="portfolio-post">
+                                                <img src="images/portfolio/52.jpg" alt="Portfolio project — Stream TV Shows - API by Fadil R (fadilxcoder)" loading="lazy" decoding="async">
                                                 <div class="mask"></div>
                                             </div>
                                             <h4>Stream TV Shows - API</h4>
                                         </div>
                                         <div class="hentry">
                                             <div class="media-box">
-                                                <img src="images/portfolio/51.jpg" alt="portfolio-post">
+                                                <img src="images/portfolio/51.jpg" alt="Portfolio project — API Client UI by Fadil R (fadilxcoder)" loading="lazy" decoding="async">
                                                 <div class="mask"></div>
                                             </div>
                                             <h4>API Client UI</h4>
                                         </div>
                                         <div class="hentry">
                                             <div class="media-box">
-                                                <img src="images/portfolio/50.jpg" alt="portfolio-post">
+                                                <img src="images/portfolio/50.jpg" alt="Portfolio project — Watches E-Commerce by Fadil R (fadilxcoder)" loading="lazy" decoding="async">
                                                 <div class="mask"></div>
                                             </div>
                                             <h4>Watches E-Commerce</h4>
                                         </div>
                                         <div class="hentry">
                                             <div class="media-box">
-                                                <img src="images/portfolio/49.jpg" alt="portfolio-post">
+                                                <img src="images/portfolio/49.jpg" alt="Portfolio project — Al Hayaat Calligraphy by Fadil R (fadilxcoder)" loading="lazy" decoding="async">
                                                 <div class="mask"></div>
                                             </div>
                                             <h4>Al Hayaat Calligraphy</h4>
                                         </div>
                                         <div class="hentry">
                                             <div class="media-box">
-                                                <img src="images/portfolio/48.jpg" alt="portfolio-post">
+                                                <img src="images/portfolio/48.jpg" alt="Portfolio project — Online Lecture Presentation App by Fadil R (fadilxcoder)" loading="lazy" decoding="async">
                                                 <div class="mask"></div>
                                             </div>
                                             <h4>Online Lecture Presentation App</h4>
                                         </div>
                                         <div class="hentry">
                                             <div class="media-box">
-                                                <img src="images/portfolio/47.jpg" alt="portfolio-post">
+                                                <img src="images/portfolio/47.jpg" alt="Portfolio project — Laravel Lumen Dev. by Fadil R (fadilxcoder)" loading="lazy" decoding="async">
                                                 <div class="mask"></div>
                                             </div>
                                             <h4>Laravel Lumen Dev.</h4>
                                         </div>
                                         <div class="hentry">
                                             <div class="media-box">
-                                                <img src="images/portfolio/46.jpg" alt="portfolio-post">
+                                                <img src="images/portfolio/46.jpg" alt="Portfolio project — Laravel 8 Blog Dev. by Fadil R (fadilxcoder)" loading="lazy" decoding="async">
                                                 <div class="mask"></div>
                                             </div>
                                             <h4>Laravel 8 Blog Dev.</h4>
                                         </div>
                                         <div class="hentry">
                                             <div class="media-box">
-                                                <img src="images/portfolio/45.jpg" alt="portfolio-post">
+                                                <img src="images/portfolio/45.jpg" alt="Portfolio project — Firebase Micro App by Fadil R (fadilxcoder)" loading="lazy" decoding="async">
                                                 <div class="mask"></div>
                                             </div>
                                             <h4>Firebase Micro App</h4>
                                         </div>
                                         <div class="hentry">
                                             <div class="media-box">
-                                                <img src="images/portfolio/44.jpg" alt="portfolio-post">
+                                                <img src="images/portfolio/44.jpg" alt="Portfolio project — Private Sport Shop - Redesign by Fadil R (fadilxcoder)" loading="lazy" decoding="async">
                                                 <div class="mask"></div>
                                             </div>
                                             <h4>Private Sport Shop - Redesign</h4>
                                         </div>
                                         <div class="hentry">
                                             <div class="media-box">
-                                                <img src="images/portfolio/43.jpg" alt="portfolio-post">
+                                                <img src="images/portfolio/43.jpg" alt="Portfolio project — Saas - Nutry.fr by Fadil R (fadilxcoder)" loading="lazy" decoding="async">
                                                 <div class="mask"></div>
                                             </div>
                                             <h4>Saas - Nutry.fr</h4>
                                         </div>
                                         <div class="hentry">
                                             <div class="media-box">
-                                                <img src="images/portfolio/42.jpg" alt="portfolio-post">
+                                                <img src="images/portfolio/42.jpg" alt="Portfolio project — 2FA - Patient Reporting System by Fadil R (fadilxcoder)" loading="lazy" decoding="async">
                                                 <div class="mask"></div>
                                             </div>
                                             <h4>2FA - Patient Reporting System</h4>
                                         </div>
                                         <div class="hentry">
                                             <div class="media-box">
-                                                <img src="images/portfolio/41.jpg" alt="portfolio-post">
+                                                <img src="images/portfolio/41.jpg" alt="Portfolio project — QR Ticket Scanner Mobile App by Fadil R (fadilxcoder)" loading="lazy" decoding="async">
                                                 <div class="mask"></div>
                                             </div>
                                             <h4>QR Ticket Scanner Mobile App</h4>
                                         </div>
                                         <div class="hentry">
                                             <div class="media-box">
-                                                <img src="images/portfolio/40.jpg" alt="portfolio-post">
+                                                <img src="images/portfolio/40.jpg" alt="Portfolio project — Symfony / API Platform by Fadil R (fadilxcoder)" loading="lazy" decoding="async">
                                                 <div class="mask"></div>
                                             </div>
                                             <h4>Symfony / API Platform </h4>
                                         </div>
                                         <div class="hentry">
                                             <div class="media-box">
-                                                <img src="images/portfolio/39.jpg" alt="portfolio-post">
+                                                <img src="images/portfolio/39.jpg" alt="Portfolio project — Saas - Valdesco Courses by Fadil R (fadilxcoder)" loading="lazy" decoding="async">
                                                 <div class="mask"></div>
                                             </div>
                                             <h4>Saas - Valdesco Courses</h4>
                                         </div>
                                         <div class="hentry">
                                             <div class="media-box">
-                                                <img src="images/portfolio/38.jpg" alt="portfolio-post">
+                                                <img src="images/portfolio/38.jpg" alt="Portfolio project — Technotronics by Fadil R (fadilxcoder)" loading="lazy" decoding="async">
                                                 <div class="mask"></div>
                                             </div>
                                             <h4>Technotronics</h4>
                                         </div>
                                         <div class="hentry">
                                             <div class="media-box">
-                                                <img src="images/portfolio/37.jpg" alt="portfolio-post">
+                                                <img src="images/portfolio/37.jpg" alt="Portfolio project — ALVIS Mauritius by Fadil R (fadilxcoder)" loading="lazy" decoding="async">
                                                 <div class="mask"></div>
                                             </div>
                                             <h4>ALVIS Mauritius</h4>
                                         </div>
                                         <div class="hentry">
                                             <div class="media-box">
-                                                <img src="images/portfolio/36.jpg" alt="portfolio-post">
+                                                <img src="images/portfolio/36.jpg" alt="Portfolio project — CSEOBA E-Ticket Management by Fadil R (fadilxcoder)" loading="lazy" decoding="async">
                                                 <div class="mask"></div>
                                             </div>
                                             <h4>CSEOBA E-Ticket Management</h4>
                                         </div>
                                         <div class="hentry">
                                             <div class="media-box">
-                                                <img src="images/portfolio/35.jpg" alt="portfolio-post">
+                                                <img src="images/portfolio/35.jpg" alt="Portfolio project — SUPERDIST (hiperdist-io) Stock Management by Fadil R (fadilxcoder)" loading="lazy" decoding="async">
                                                 <div class="mask"></div>
                                             </div>
                                             <h4>SUPERDIST (hiperdist-io) Stock Management</h4>
                                         </div>
                                         <div class="hentry">
                                             <div class="media-box">
-                                                <img src="images/portfolio/34.jpg" alt="portfolio-post">
+                                                <img src="images/portfolio/34.jpg" alt="Portfolio project — A J Contracting Ltd by Fadil R (fadilxcoder)" loading="lazy" decoding="async">
                                                 <div class="mask"></div>
                                             </div>
                                             <h4>A J Contracting Ltd</h4>
                                         </div>
                                         <div class="hentry">
                                             <div class="media-box">
-                                                <img src="images/portfolio/33.jpg" alt="portfolio-post">
+                                                <img src="images/portfolio/33.jpg" alt="Portfolio project — MauBank WithMe by Fadil R (fadilxcoder)" loading="lazy" decoding="async">
                                                 <div class="mask"></div>
                                             </div>
                                             <h4>MauBank WithMe</h4>
                                         </div>
                                         <div class="hentry">
                                             <div class="media-box">
-                                                <img src="images/portfolio/32.jpg" alt="portfolio-post">
+                                                <img src="images/portfolio/32.jpg" alt="Portfolio project — Panzani Marketing Campaign by Fadil R (fadilxcoder)" loading="lazy" decoding="async">
                                                 <div class="mask"></div>
                                             </div>
                                             <h4>Panzani Marketing Campaign</h4>
                                         </div>
                                         <div class="hentry">
                                             <div class="media-box">
-                                                <img src="images/portfolio/31.jpg" alt="portfolio-post">
+                                                <img src="images/portfolio/31.jpg" alt="Portfolio project — eSolusoft Ltd by Fadil R (fadilxcoder)" loading="lazy" decoding="async">
                                                 <div class="mask"></div>
                                             </div>
                                             <h4>eSolusoft Ltd</h4>
                                         </div>
                                         <div class="hentry">
                                             <div class="media-box">
-                                                <img src="images/portfolio/30.jpg" alt="portfolio-post">
+                                                <img src="images/portfolio/30.jpg" alt="Portfolio project — Forum SportColl by Fadil R (fadilxcoder)" loading="lazy" decoding="async">
                                                 <div class="mask"></div>
                                             </div>
                                             <h4>Forum SportColl</h4>
                                         </div>
                                         <div class="hentry">
                                             <div class="media-box">
-                                                <img src="images/portfolio/29.jpg" alt="portfolio-post">
+                                                <img src="images/portfolio/29.jpg" alt="Portfolio project — Binding Estates Saving Calculator - UK by Fadil R (fadilxcoder)" loading="lazy" decoding="async">
                                                 <div class="mask"></div>
                                             </div>
                                             <h4>Binding Estates Saving Calculator - UK </h4>
                                         </div>
                                         <div class="hentry">
                                             <div class="media-box">
-                                                <img src="images/portfolio/28.jpg" alt="portfolio-post">
+                                                <img src="images/portfolio/28.jpg" alt="Portfolio project — SCS Mauritius by Fadil R (fadilxcoder)" loading="lazy" decoding="async">
                                                 <div class="mask"></div>
                                             </div>
                                             <h4>SCS Mauritius</h4>
                                         </div>
                                         <div class="hentry">
                                             <div class="media-box">
-                                                <img src="images/portfolio/27.jpg" alt="portfolio-post">
+                                                <img src="images/portfolio/27.jpg" alt="Portfolio project — Rodrigues Kitesurfing Association by Fadil R (fadilxcoder)" loading="lazy" decoding="async">
                                                 <div class="mask"></div>
                                             </div>
                                             <h4>Rodrigues Kitesurfing Association</h4>
                                         </div>
                                         <div class="hentry">
                                             <div class="media-box">
-                                                <img src="images/portfolio/26.jpg" alt="portfolio-post">
+                                                <img src="images/portfolio/26.jpg" alt="Portfolio project — Tailored Accounting App by Fadil R (fadilxcoder)" loading="lazy" decoding="async">
                                                 <div class="mask"></div>
                                             </div>
                                             <h4>Tailored Accounting App</h4>
                                         </div>
                                         <div class="hentry">
                                             <div class="media-box">
-                                                <img src="images/portfolio/25.jpg" alt="portfolio-post">
+                                                <img src="images/portfolio/25.jpg" alt="Portfolio project — Nin's Marketing Campaign by Fadil R (fadilxcoder)" loading="lazy" decoding="async">
                                                 <div class="mask"></div>
                                             </div>
                                             <h4>Nin's Marketing Campaign</h4>
                                         </div>
                                         <div class="hentry">
                                             <div class="media-box">
-                                                <img src="images/portfolio/24.jpg" alt="portfolio-post">
+                                                <img src="images/portfolio/24.jpg" alt="Portfolio project — Ferrari Dubai Newsletter by Fadil R (fadilxcoder)" loading="lazy" decoding="async">
                                                 <div class="mask"></div>
                                             </div>
                                             <h4>Ferrari Dubai Newsletter</h4>
                                         </div>
                                         <div class="hentry">
                                             <div class="media-box">
-                                                <img src="images/portfolio/23.jpg" alt="portfolio-post">
+                                                <img src="images/portfolio/23.jpg" alt="Portfolio project — Ferrari Dubai Catalogue App by Fadil R (fadilxcoder)" loading="lazy" decoding="async">
                                                 <div class="mask"></div>
                                             </div>
                                             <h4>Ferrari Dubai Catalogue App</h4>
                                         </div>
                                         <div class="hentry">
                                             <div class="media-box">
-                                                <img src="images/portfolio/22.jpg" alt="portfolio-post">
+                                                <img src="images/portfolio/22.jpg" alt="Portfolio project — Create-WW by Fadil R (fadilxcoder)" loading="lazy" decoding="async">
                                                 <div class="mask"></div>
                                             </div>
                                             <h4>Create-WW</h4>
                                         </div>
                                         <div class="hentry">
                                             <div class="media-box">
-                                                <img src="images/portfolio/21.jpg" alt="portfolio-post">
+                                                <img src="images/portfolio/21.jpg" alt="Portfolio project — Zarrin Tejarat - en-US|ar-AE (RTL) by Fadil R (fadilxcoder)" loading="lazy" decoding="async">
                                                 <div class="mask"></div>
                                             </div>
                                             <h4>Zarrin Tejarat - en-US|ar-AE (RTL)</h4>
                                         </div>
                                         <div class="hentry">
                                             <div class="media-box">
-                                                <img src="images/portfolio/20.jpg" alt="portfolio-post">
+                                                <img src="images/portfolio/20.jpg" alt="Portfolio project — Furniture Store by Fadil R (fadilxcoder)" loading="lazy" decoding="async">
                                                 <div class="mask"></div>
                                             </div>
                                             <h4>Furniture Store</h4>
                                         </div>
                                         <div class="hentry">
                                             <div class="media-box">
-                                                <img src="images/portfolio/19.jpg" alt="portfolio-post">
+                                                <img src="images/portfolio/19.jpg" alt="Portfolio project — University Courses / Quiz System by Fadil R (fadilxcoder)" loading="lazy" decoding="async">
                                                 <div class="mask"></div>
                                             </div>
                                             <h4>University Courses / Quiz System</h4>
                                         </div>
                                         <div class="hentry">
                                             <div class="media-box">
-                                                <img src="images/portfolio/18.jpg" alt="portfolio-post">
+                                                <img src="images/portfolio/18.jpg" alt="Portfolio project — Jquey Mobile App Dev by Fadil R (fadilxcoder)" loading="lazy" decoding="async">
                                                 <div class="mask"></div>
                                             </div>
                                             <h4>Jquey Mobile App Dev</h4>
                                         </div>
                                         <div class="hentry">
                                             <div class="media-box">
-                                                <img src="images/portfolio/17.jpg" alt="portfolio-post">
+                                                <img src="images/portfolio/17.jpg" alt="Portfolio project — Marketing Campaign Ultra Doux Adv. by Fadil R (fadilxcoder)" loading="lazy" decoding="async">
                                                 <div class="mask"></div>
                                             </div>
                                             <h4>Marketing Campaign Ultra Doux Adv.</h4>
                                         </div>
                                         <div class="hentry">
                                             <div class="media-box">
-                                                <img src="images/portfolio/16.jpg" alt="portfolio-post">
+                                                <img src="images/portfolio/16.jpg" alt="Portfolio project — Marketing Campaign Mixa - Slot Machine by Fadil R (fadilxcoder)" loading="lazy" decoding="async">
                                                 <div class="mask"></div>
                                             </div>
                                             <h4>Marketing Campaign Mixa - Slot Machine</h4>
                                         </div>
                                         <div class="hentry">
                                             <div class="media-box">
-                                                <img src="images/portfolio/15.jpg" alt="portfolio-post">
+                                                <img src="images/portfolio/15.jpg" alt="Portfolio project — Marketing Campaign Ultra Doux by Fadil R (fadilxcoder)" loading="lazy" decoding="async">
                                                 <div class="mask"></div>
                                             </div>
                                             <h4>Marketing Campaign Ultra Doux</h4>
                                         </div>
                                         <div class="hentry">
                                             <div class="media-box">
-                                                <img src="images/portfolio/14.jpg" alt="portfolio-post">
+                                                <img src="images/portfolio/14.jpg" alt="Portfolio project — Doctor / Patient Management System by Fadil R (fadilxcoder)" loading="lazy" decoding="async">
                                                 <div class="mask"></div>
                                             </div>
                                             <h4>Doctor / Patient <br>Management System</h4>
                                         </div>
                                         <div class="hentry">
                                             <div class="media-box">
-                                                <img src="images/portfolio/13.jpg" alt="portfolio-post">
+                                                <img src="images/portfolio/13.jpg" alt="Portfolio project — Great Place To Work (LP) by Fadil R (fadilxcoder)" loading="lazy" decoding="async">
                                                 <div class="mask"></div>
                                             </div>
                                             <h4>Great Place To Work (LP)</h4>
                                         </div>
                                         <div class="hentry">
                                             <div class="media-box">
-                                                <img src="images/portfolio/12.jpg" alt="portfolio-post">
+                                                <img src="images/portfolio/12.jpg" alt="Portfolio project — Le Peninsula Bay by Fadil R (fadilxcoder)" loading="lazy" decoding="async">
                                                 <div class="mask"></div>
                                             </div>
                                             <h4>Le Peninsula Bay</h4>
                                         </div>
                                         <div class="hentry">
                                             <div class="media-box">
-                                                <img src="images/portfolio/11.jpg" alt="portfolio-post">
+                                                <img src="images/portfolio/11.jpg" alt="Portfolio project — Parallax Website by Fadil R (fadilxcoder)" loading="lazy" decoding="async">
                                                 <div class="mask">
                                                     <a href="#" target="_blank" class="ajax"></a>
                                                 </div>
@@ -575,70 +757,70 @@
                                         </div>
                                         <div class="hentry">
                                             <div class="media-box">
-                                                <img src="images/portfolio/10.jpg" alt="portfolio-post">
+                                                <img src="images/portfolio/10.jpg" alt="Portfolio project — Maubank Quiz by Fadil R (fadilxcoder)" loading="lazy" decoding="async">
                                                 <div class="mask"></div>
                                             </div>
                                             <h4>Maubank Quiz</h4>
                                         </div>
                                         <div class="hentry">
                                             <div class="media-box">
-                                                <img src="images/portfolio/09.jpg" alt="portfolio-post">
+                                                <img src="images/portfolio/09.jpg" alt="Portfolio project — Desktop Based Website by Fadil R (fadilxcoder)" loading="lazy" decoding="async">
                                                 <div class="mask"></div>
                                             </div>
                                             <h4>Desktop Based Website</h4>
                                         </div>
                                         <div class="hentry">
                                             <div class="media-box">
-                                                <img src="images/portfolio/08.jpg" alt="portfolio-post">
+                                                <img src="images/portfolio/08.jpg" alt="Portfolio project — First Auto Car Rental by Fadil R (fadilxcoder)" loading="lazy" decoding="async">
                                                 <div class="mask"></div>
                                             </div>
                                             <h4>First Auto Car Rental</h4>
                                         </div>
                                         <div class="hentry">
                                             <div class="media-box">
-                                                <img src="images/portfolio/07.jpg" alt="portfolio-post">
+                                                <img src="images/portfolio/07.jpg" alt="Portfolio project — Dive Passion Mauritius by Fadil R (fadilxcoder)" loading="lazy" decoding="async">
                                                 <div class="mask"></div>
                                             </div>
                                             <h4>Dive Passion Mauritius</h4>
                                         </div>
                                         <div class="hentry">
                                             <div class="media-box">
-                                                <img src="images/portfolio/06.jpg" alt="portfolio-post">
+                                                <img src="images/portfolio/06.jpg" alt="Portfolio project — Danpoly Mauritius by Fadil R (fadilxcoder)" loading="lazy" decoding="async">
                                                 <div class="mask"></div>
                                             </div>
                                             <h4>Danpoly Mauritius</h4>
                                         </div>
                                         <div class="hentry">
                                             <div class="media-box">
-                                                <img src="images/portfolio/05.jpg" alt="portfolio-post">
+                                                <img src="images/portfolio/05.jpg" alt="Portfolio project — Car Rental Web App by Fadil R (fadilxcoder)" loading="lazy" decoding="async">
                                                 <div class="mask"></div>
                                             </div>
                                             <h4>Car Rental Web App</h4>
                                         </div>
                                         <div class="hentry">
                                             <div class="media-box">
-                                                <img src="images/portfolio/04.jpg" alt="portfolio-post">
+                                                <img src="images/portfolio/04.jpg" alt="Portfolio project — Raid Des Alizes by Fadil R (fadilxcoder)" loading="lazy" decoding="async">
                                                 <div class="mask"></div>
                                             </div>
                                             <h4>Raid Des Alizes</h4>
                                         </div>
                                         <div class="hentry">
                                             <div class="media-box">
-                                                <img src="images/portfolio/03.jpg" alt="portfolio-post">
+                                                <img src="images/portfolio/03.jpg" alt="Portfolio project — La Vallee Des Couleur by Fadil R (fadilxcoder)" loading="lazy" decoding="async">
                                                 <div class="mask"></div>
                                             </div>
                                             <h4>La Vallee Des Couleur</h4>
                                         </div>
                                         <div class="hentry">
                                             <div class="media-box">
-                                                <img src="images/portfolio/02.jpg" alt="portfolio-post">
+                                                <img src="images/portfolio/02.jpg" alt="Portfolio project — TVSport Events by Fadil R (fadilxcoder)" loading="lazy" decoding="async">
                                                 <div class="mask"></div>
                                             </div>
                                             <h4>TVSport Events</h4>
                                         </div>
                                         <div class="hentry">
                                             <div class="media-box">
-                                                <img src="images/portfolio/01.jpg" alt="portfolio-post">
+                                                <img src="images/portfolio/01.jpg" alt="Portfolio project — Open Sud De France by Fadil R (fadilxcoder)" loading="lazy" decoding="async">
                                                 <div class="mask"></div>
                                             </div>
                                             <h4>Open Sud De France</h4>
@@ -654,7 +836,7 @@
                     <div class="rm-front">
                         <div class="cover">
                             <div class="cover-image-holder">
-                                    <img src="images/site/cover-2.jpg" alt="cover-image">
+                                    <img src="images/site/cover-2.jpg" alt="Contact Fadil R — Web Architect & Full-Stack Developer in Mauritius" loading="lazy" decoding="async">
                                 </div>
                             </div>
                         </div>
@@ -699,18 +881,18 @@
         <div class="p-overlay"> </div>
         <div class="loader"></div>
         <div class="alert"></div>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/jquery-1.8.3.min.js"><\/script>')</script>
-        <script src="js/jquery.address-1.5.min.js"></script>
-        <script src="js/antiscroll.js"></script>
-        <script src="js/jquery.fittext.js"></script>
-		<script src="js/jquery.imagesloaded.min.js"></script>
-        <script src="js/jquery.isotope.min.js"></script>
-        <script src="js/jquery.fitvids.js"></script>
-        <script src="js/jquery.validate.min.js"></script>
-        <script src="js/jquery.fancybox-1.3.4.pack.js"></script>
-        <script src="js/send-mail.js"></script>
-        <script src="js/twitterFetcher_v10_min.js"></script>
-        <script src="js/main.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js" defer></script>
+        <script>window.jQuery || document.write('<script src="js/jquery-1.8.3.min.js" defer><\/script>')</script>
+        <script src="js/jquery.address-1.5.min.js" defer></script>
+        <script src="js/antiscroll.js" defer></script>
+        <script src="js/jquery.fittext.js" defer></script>
+        <script src="js/jquery.imagesloaded.min.js" defer></script>
+        <script src="js/jquery.isotope.min.js" defer></script>
+        <script src="js/jquery.fitvids.js" defer></script>
+        <script src="js/jquery.validate.min.js" defer></script>
+        <script src="js/jquery.fancybox-1.3.4.pack.js" defer></script>
+        <script src="js/send-mail.js" defer></script>
+        <script src="js/twitterFetcher_v10_min.js" defer></script>
+        <script src="js/main.js" defer></script>
     </body>
 </html>

@@ -1,2 +1,15 @@
 User-agent: *
-Disallow:
+Allow: /
+Disallow: /css/
+Disallow: /js/
+Disallow: /skin-select/
+
+# Allow indexing assets that improve preview rendering
+Allow: /images/
+Allow: /favicon.png
+Allow: /favicon-16x16.png
+Allow: /favicon-32x32.png
+Allow: /apple-touch-icon.png
+Allow: /manifest.webmanifest
+
+Sitemap: https://fadilxcoder.github.io/sitemap.xml
